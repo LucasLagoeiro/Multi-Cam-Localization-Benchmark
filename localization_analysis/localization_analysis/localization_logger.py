@@ -34,10 +34,11 @@ from geometry_msgs.msg import PoseWithCovarianceStamped
 from nav_msgs.msg import Path
 from rtabmap_msgs.msg import Info
 
+
 _SCRIPTS_DIR = os.path.join(
     os.path.expanduser('~'),
     'FEI', 'Mestrado', '1_quadrimestre', 'CienciaDeDados',
-    'Projeto', 'ros2_ws', 'src', 'localization_analysis',
+    'Projeto', 'FinalStruct', 'ros2_ws', 'src', 'localization_analysis',
     'data', 'logs',
 )
 
