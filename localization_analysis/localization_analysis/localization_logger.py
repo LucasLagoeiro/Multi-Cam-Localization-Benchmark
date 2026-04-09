@@ -58,7 +58,7 @@ class LocalizationLogger(Node):
     def __init__(self):
         super().__init__('localization_logger')
 
-        self.declare_parameter('camera_mode', 'single')
+        self.declare_parameter('camera_mode', 'double')
 
         run_dir = _next_run_dir()
         default_output = os.path.join(run_dir, 'localization_log.csv')
