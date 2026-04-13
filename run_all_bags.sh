@@ -4,7 +4,7 @@
 # Each run creates logger_csv_N in data/logs/ with the same N.
 
 PKG_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-BAGS_DIR="$PKG_DIR/localization_analysis/data/two_cameras_tryouts/tryouts"
+BAGS_DIR="$PKG_DIR/localization_analysis/data/one_camera_tryouts/"
 WS_INSTALL="$PKG_DIR/../install/setup.bash"
 
 source /opt/ros/humble/setup.bash
