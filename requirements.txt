@@ -1,0 +1,8 @@
+numpy>=1.26
+pandas>=2.2
+matplotlib>=3.8
+plotly>=5.20
+scipy>=1.13
+scikit-learn>=1.4
+nbformat>=4.2
+ipython>=8.0
