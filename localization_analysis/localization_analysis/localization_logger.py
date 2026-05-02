@@ -12,10 +12,10 @@ Parameters:
   plan_path    (string, default '~/plan_log.csv')  — separate file for /plan poses
 
 Key metrics recorded per rtabmap update:
-  inliers         — visual feature inliers in the matched frame (higher = stronger match)
-  matches         — total feature correspondences found
-  inlier_ratio    — inliers / matches  (robustness of the match)
-  hypothesis_ratio — probability of the best localization hypothesis (0‥1, higher = more certain)
+  inliers         — visual feature inliers RANSAC do frame atual (higher = stronger match)
+  matches         — total de correspondências de features encontradas antes do filtro geométrico
+  inlier_ratio    — inliers / toSignature.getWords().size()  (inliers / palavras visuais BoW do frame atual — RegistrationVis.cpp:2199)
+  hypothesis_ratio — _highestHypothesis.second / _loopClosureHypothesis.second  (score hipótese atual / score do loop closure aceito — Rtabmap.cpp:2201); valor 1 = confiança máxima
   loop_closure_id  — >0 when a loop closure was accepted (landmark re-detection)
   wm_size          — working-memory node count
   detection_time_ms / total_time_ms — processing load
